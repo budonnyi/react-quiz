@@ -15,7 +15,7 @@ const ActiveQuiz = props => (
             </span>
             <small>{props.answerNumber} from {props.quizLength}</small>
         </p>
-        <ul>
+        <React.Fragment>
 
             <AnswersList
                 answers = {props.answers}
@@ -23,7 +23,7 @@ const ActiveQuiz = props => (
                 state = { props.state }
             />
 
-        </ul>
+        </React.Fragment>
     </div>
 )
 

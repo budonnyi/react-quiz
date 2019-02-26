@@ -6,6 +6,7 @@
     "react": "^16.7.0",
     "react-css-modules": "^4.7.9",
     "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts-cssmodules": "^1.1.50"
   },
   "scripts": {

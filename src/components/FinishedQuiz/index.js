@@ -1,24 +1,47 @@
 import React from 'react'
 import classes from './FinishedQuiz.module.css'
+import {Link} from "react-router-dom";
+import Button from "../Ui/Button/Button";
 
 const FinishedQuiz = props => {
+
+    const successCount = Object.keys(props.results).reduce((total, key) => {
+        if (props.results[key] === 'success') {
+            total++
+        }
+        return total
+    }, 0)
+
     return (
         <div className={classes.FinishedQuiz}>
             <ul>
-                <li>
-                    <strong> 1 . </strong>
-                    TEXT
-                    <i className={'fa fa-times ' + classes.error} />
+                {props.quiz.map((quizItem, index) => {
 
-                    <strong> 1 . </strong>
-                    TEXT
-                    <i className={'fa fa-times ' + classes.success} />
-                </li>
+                    const cls = [
+                        'fa',
+                        props.results[quizItem.id] === 'error' ? 'fa-times' : 'fa-check',
+                        classes[props.results[quizItem.id]]
+                    ]
+
+                    return (
+                        <li
+                            key={index}
+                        >
+                            <strong>{index + 1}</strong>.&nbsp;
+                            {quizItem.question}
+                            <i className={cls.join(' ')}></i>
+                        </li>
+                    )
+                })}
+
             </ul>
-            <p>Correct 4 from 10</p>
+            <p>Правильных {successCount} из {props.quiz.length}</p>
 
             <div>
-                <button>Repeat</button>
+                <Button onClick={props.onRetry}>Повторить</Button>
+                <Link to='/'>
+                <Button type='success'>В список тестов</Button>
+                </Link>
             </div>
         </div>
     )
