@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1b90fa-2f41-4a66-b479-3279886ca296" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/QuizList/QuizList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/QuizList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/Input/Input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/Input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Auth/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/QuizCreator/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2a7a7bc8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2a7a7bc8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuize/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FinishedQuiz/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Navigation/Drawer/Drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Navigation/Drawer/Drawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="be1b90fa-2f41-4a66-b479-3279886ca296" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,18 +206,27 @@
       <workItem from="1549902943469" duration="1693000" />
       <workItem from="1550000806746" duration="465000" />
       <workItem from="1550002494256" duration="18000" />
+      <workItem from="1551159876265" duration="310000" />
     </task>
+    <task id="LOCAL-00001" summary="3 part">
+      <created>1551159911337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551159911337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64190000" />
+    <option name="totallyTimeSpent" value="64500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="211" y="90" width="1003" height="809" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22476587" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2289282" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.30822873" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -262,6 +248,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 part" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Ui/Button/Button.module.css">
