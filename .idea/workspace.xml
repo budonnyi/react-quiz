@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1b90fa-2f41-4a66-b479-3279886ca296" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/axios/axios-quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuizList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuizList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="be1b90fa-2f41-4a66-b479-3279886ca296" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/Quiz/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -147,8 +141,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1905" />
-    <option name="y" value="-86" />
+    <option name="x" value="59" />
+    <option name="y" value="146" />
     <option name="width" value="1242" />
     <option name="height" value="820" />
   </component>
@@ -350,7 +344,7 @@
       <workItem from="1550002494256" duration="18000" />
       <workItem from="1551159876265" duration="651000" />
       <workItem from="1551621190964" duration="18708000" />
-      <workItem from="1551763841022" duration="1633000" />
+      <workItem from="1551763841022" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="3 part">
       <created>1551159911337</created>
@@ -366,21 +360,27 @@
       <option name="project" value="LOCAL" />
       <updated>1551763862642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pre finished">
+      <created>1551765576191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551765576191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85182000" />
+    <option name="totallyTimeSpent" value="85294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1905" y="-86" width="1242" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="15" y="23" width="1242" height="820" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1875" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4217033" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4217033" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -403,7 +403,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 part" />
+    <MESSAGE value="pre finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,7 +764,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Quiz/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
