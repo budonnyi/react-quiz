@@ -3,7 +3,7 @@ import Button from "../../components/Ui/Button/Button"
 import classes from './Auth.module.css'
 import Input from '../../components/Ui/Input'
 import is from 'is_js'
-
+import axios from 'axios'
 
 export default class Auth extends Component {
 
@@ -41,11 +41,34 @@ export default class Auth extends Component {
         event.preventDefault()
     }
 
-    loginHandler = () => {
+    loginHandler = async () => {
+        const authData = {
+            email: this.state.formControls.email.value,
+            password: this.state.formControls.password.value,
+            secureToken: true
+        }
 
+        try {
+            const response = await axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyA_aE_TT8fwU1PTPttEbunLnNde19V5H6s', authData)
+            console.log(response.data)
+        } catch (err) {
+            console.log(err)
+        }
     }
 
-    registerHandler = () => {
+    registerHandler = async () => {
+        const authData = {
+            email: this.state.formControls.email.value,
+            password: this.state.formControls.password.value,
+            secureToken: true
+        }
+
+        try {
+            const response = await axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyA_aE_TT8fwU1PTPttEbunLnNde19V5H6s', authData)
+            console.log(response.data)
+        } catch (err) {
+            console.log(err)
+        }
 
     }
 
